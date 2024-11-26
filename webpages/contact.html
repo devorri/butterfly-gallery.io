@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+        .index-link {
+            position: relative;
+            display: inline-block; /* To fit the image size */
+            overflow: hidden; /* Hide overflow for smooth effect */
+        }
+        .index-link img {
+            width: 100%; /* Make image responsive */
+            transition: opacity 0.3s ease; /* Smooth transition */
+        }
+        .index-link:hover img {
+            opacity: 0.7; /* Reduce opacity on hover */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: rgb(172, 117, 194);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #444;
+            margin-top: 20px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .contact-form button {
+            background-color: #ebd6e8;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .contact-form button:hover {
+            background-color: #e9b4f0;
+        }
+        .contact-info {
+            margin-top: 20px;
+            background: #e8e8e8;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+    </style>
+    <link rel="stylesheet" href="style-contact.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Whether you have questions, feedback, or just want to chat about our gallery, feel free to reach out using the form below.</p>
+
+        <h2>Get in Touch</h2>
+        <form class="contact-form" action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+            <p><strong>Email:</strong> venzon2434229@mls.ceu.edu.ph</p>
+            <p><strong>Phone:</strong> +63 969-413-8598</p>
+            
+        </div>
+    </div>
+
+    <div class="index-link">
+        <a href="index.html">
+        <img src="/images/butterfly effect.png" alt="index-link" width="125" height="75">
+        </a>
+    </div>
+
+    
+    
+
+
+    <div class="background-image"></div>
+    <div class="background-image2"></div>
+
+
+
+
+
+
+
+
+
+    <nav>
+        <ul class="nav-list">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Explore</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
