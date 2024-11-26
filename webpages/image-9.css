@@ -12,7 +12,7 @@ body {
 .background-image {
     
     
-    background-image: url(/images/What\ if\ I\ hadn’t\ chosen\ to\ take\ the\ Bachelor\ of\ Science\ in\ Pharmacy\ course_\ Would\ I\ still\ be\ able\ to\ be\ where\ I\ am\ now\,\ and\ be\ this\ successful__.jpg); /* Replace with your image URL */
+    background-image: url(What\ if\ I\ hadn’t\ chosen\ to\ take\ the\ Bachelor\ of\ Science\ in\ Pharmacy\ course_\ Would\ I\ still\ be\ able\ to\ be\ where\ I\ am\ now\,\ and\ be\ this\ successful__.jpg); /* Replace with your image URL */
     background-size: cover; /* Ensures the image covers the entire div */
     background-position: center; /* Centers the image */
     height: 100vh; /* Sets the height to full viewport height */
