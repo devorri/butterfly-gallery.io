@@ -12,7 +12,7 @@ body {
 .background-image {
     
     filter: blur(3px);
-    background-image: url(/images/ceu-bg3.jpg); /* Replace with your image URL */
+    background-image: url(ceu-bg3.jpg); /* Replace with your image URL */
     background-size: cover; /* Ensures the image covers the entire div */
     background-position: center; /* Centers the image */
     height: 100vh; /* Sets the height to full viewport height */
@@ -27,7 +27,7 @@ body {
 .background-image2 {
     
     filter: blur(3px);
-    background-image: url(/images/ceu-bg3.jpg); /* Replace with your image URL */
+    background-image: url(ceu-bg3.jpg); /* Replace with your image URL */
     background-size: cover; /* Ensures the image covers the entire div */
     background-position: center; /* Centers the image */
     height: 100vh; /* Sets the height to full viewport height */
