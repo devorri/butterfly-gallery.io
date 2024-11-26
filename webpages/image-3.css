@@ -12,7 +12,7 @@ body {
 .background-image {
     
     
-    background-image: url(/images/Love\ yourself\ more.PNG); /* Replace with your image URL */
+    background-image: url(Love\ yourself\ more.PNG); /* Replace with your image URL */
     background-size: cover; /* Ensures the image covers the entire div */
     background-position: center; /* Centers the image */
     height: 100vh; /* Sets the height to full viewport height */
