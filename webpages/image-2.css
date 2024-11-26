@@ -13,7 +13,7 @@ body {
 .background-image {
     
     
-    background-image: url(/images/If\ my\ parents\ hadn’t\ said\ \(or\ done\)\ that\ to\ me\,\ how\ would\ I\ be\ acting\ now_PNG.png); /* Replace with your image URL */
+    background-image: url(If\ my\ parents\ hadn’t\ said\ \(or\ done\)\ that\ to\ me\,\ how\ would\ I\ be\ acting\ now_PNG.png); /* Replace with your image URL */
     background-size: cover; /* Ensures the image covers the entire div */
     background-position: center; /* Centers the image */
     height: 100vh; /* Sets the height to full viewport height */
